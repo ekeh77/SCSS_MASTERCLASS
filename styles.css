@@ -11,7 +11,6 @@ body {
   height: 100vh;
 }
 
-
 .child {
   flex-basis: 30%;
   background: peru;
