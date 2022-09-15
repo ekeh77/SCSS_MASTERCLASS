@@ -9,7 +9,10 @@ body {
   justify-content: space-around;
   width: 100%;
   height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .child {
   flex-basis: 30%;
   background: peru;
@@ -19,7 +22,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .child:nth-child(2) {
   background: #000;
   flex-grow: 1;
+}
+  
+.child:nth-child(4) {
+  margin-top: 10px;
 }
