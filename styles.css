@@ -4,13 +4,10 @@ body {
 }
 
 .father {
-  display: flex;
-  /* Main Axis */
-  justify-content: space-around;
-  width: 100%;
-  height: 100vh;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 100px 50px 300px;
+  gap: 10px;
 }
 
 .child {
@@ -21,13 +18,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.child:nth-child(2) {
-  background: #000;
-  flex-grow: 1;
-}
-  
-.child:nth-child(4) {
-  margin-top: 10px;
 }
