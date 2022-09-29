@@ -4,28 +4,25 @@ body {
 }
 
 .grid {
+  background: grey;
+  color: white;
   display: grid;
   gap: 5px;
-  height: 50vh;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  place-items: stretch center;
+  height: 250vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  place-content: end center;
 }
 
 .header {
   background-color: #2ecc71;
-  grid-column: span 4;
 }
 .content {
   background-color: #3498db;
-  grid-column: first-line / fourth-line;
-  grid-row: sexy-line 1 / sexy-line 3;
 }
 .nav {
   background-color: #8e44ad;
-  grid-row: span 2;
 }
 .footer {
   background-color: #f39c12;
-  grid-column: span 4;
 }
