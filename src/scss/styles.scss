@@ -12,6 +12,7 @@ button {
   border: none;
 }
 */
+
 h1 {
   color: red;
   @include responsive("iphone") {
